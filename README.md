@@ -5,5 +5,5 @@ The system would give a token number to the newly arrived customer and also if a
 
 Services used: **Mailbox and Message Queue**
 
-Mailbox was used to send the data(token number) from status_check() function to the token_display() function.
+Mailbox was used to send the data(token number) from *status_check()* function to the *token_display()* function.
 Message queue was used to store the token number of the newly arrived customer, since we need to diplay it on the LCD when a serive window is free. The message queue of **FIFO** type was used.
